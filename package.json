@@ -1,0 +1,42 @@
+{
+  "name": "lawnhippo.gateway",
+  "version": "0.2.0",
+  "description": "Front-End Gateway for LawnHippo.com",
+  "author": "Iggy Coloma <iggy.coloma@gmail.com>",
+  "contributors": [
+    {
+      "name": "Iggy Coloma",
+      "email": "iggy.coloma@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/gulp lint",
+    "start": "node ."
+  },
+  "engines": {
+    "node": "5.x.x"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.x.x",
+    "http-proxy": "1.x.x",
+    "morgan": "1.x.x"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "del": "2.x.x",
+    "eslint": "2.x.x",
+    "gulp": "3.x.x",
+    "gulp-cli": "1.x.x",
+    "gulp-eslint": "2.x.x",
+    "gulp-istanbul": "0.10.x",
+    "gulp-mocha": "2.x.x",
+    "gulp-nodemon": "2.x.x",
+    "gulp-notify": "2.x.x",
+    "istanbul": "0.4.x",
+    "mocha": "2.x.x",
+    "nock": "7.x.x",
+    "sinon": "1.x.x"
+  },
+  "private": true
+}
